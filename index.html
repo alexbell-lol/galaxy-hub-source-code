@@ -1,0 +1,1637 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <base href="/galaxy-hub-v3/">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>Galaxy Hub - V3</title>
+        <meta name="description" content=""/>
+        <link rel="icon" href="26387fa4f5b1e3f7b6217b27d79bf264.png" type="image/png" sizes="16x16">
+        <link rel="icon" href="2d0b56e7e51cf11036ad8734bdb67e2d.png" type="image/png" sizes="32x32">
+        <link rel="apple-touch-icon" href="725b756a69a7d4c235070e51acd85560.png" sizes="180x180">
+        <style>
+            :root {
+                --ffsd: 0px;
+                --1vw: calc((100vw - var(--sbw, 0px)) / 100);
+                --1vh: var(--inner1Vh, 1vh);
+            }
+
+            @media (prefers-reduced-motion: reduce) {
+                .animated {
+                    animation: none !important;
+                }
+            }
+
+            html {
+                zoom: var(--rzf, 1); font-size: max(calc(min(var(--1vw, 1vw), 13.66px) * var(--rfso, 1)), var(--minfs, 0px));
+                -webkit-text-size-adjust: 100%;
+                scroll-behavior: smooth;
+            }
+
+            body {
+                font-size: calc(1rem * var(--bfso, 1));
+            }
+
+            body, html, p, ul, ol, li {
+                margin: 0;
+                padding: 0;
+                font-synthesis: none;
+                font-kerning: none;
+                font-variant-ligatures: none;
+                font-feature-settings: "kern" 0, "calt" 0, "liga" 0, "clig" 0, "dlig" 0, "hlig" 0;
+                font-family: unset;
+                -webkit-font-smoothing: subpixel-antialiased;
+                -moz-osx-font-smoothing: grayscale;
+                text-rendering: geometricprecision;
+                white-space: normal;
+            }
+
+            li {
+                text-align: unset;
+            }
+
+            a {
+                text-decoration: none;
+                color: inherit;
+            }
+
+            img {
+                -webkit-user-drag: none;
+                -moz-user-drag: none;
+                -o-user-drag: none;
+                user-drag: none;
+                -webkit-touch-callout: none;
+            }
+
+            @font-face {
+                font-family: YACgEZ1cb1Q-0;
+                src: url(fonts/f8f199f09526f79e87644ed227e0f651.woff2);
+                font-style: normal;
+                font-weight: 400;
+            }
+
+            @font-face {
+                font-family: YACgEZ1cb1Q-0;
+                src: url(fonts/f8f199f09526f79e87644ed227e0f651.woff2);
+                font-style: normal;
+                font-weight: 700;
+            }
+
+            @font-face {
+                font-family: YACgEZ1cb1Q-0;
+                src: url(fonts/f8f199f09526f79e87644ed227e0f651.woff2);
+                font-style: italic;
+                font-weight: 400;
+            }
+
+            @font-face {
+                font-family: YACgEZ1cb1Q-0;
+                src: url(fonts/f8f199f09526f79e87644ed227e0f651.woff2);
+                font-style: italic;
+                font-weight: 700;
+            }
+
+            @font-face {
+                font-family: YACgEZ1cb1Q-0;
+                src: url(fonts/f8f199f09526f79e87644ed227e0f651.woff2);
+                font-style: normal;
+                font-weight: 100;
+            }
+
+            @font-face {
+                font-family: YACgEZ1cb1Q-0;
+                src: url(fonts/f8f199f09526f79e87644ed227e0f651.woff2);
+                font-style: italic;
+                font-weight: 100;
+            }
+
+            @font-face {
+                font-family: YACgEZ1cb1Q-0;
+                src: url(fonts/f8f199f09526f79e87644ed227e0f651.woff2);
+                font-style: normal;
+                font-weight: 200;
+            }
+
+            @font-face {
+                font-family: YACgEZ1cb1Q-0;
+                src: url(fonts/f8f199f09526f79e87644ed227e0f651.woff2);
+                font-style: italic;
+                font-weight: 200;
+            }
+
+            @font-face {
+                font-family: YACgEZ1cb1Q-0;
+                src: url(fonts/f8f199f09526f79e87644ed227e0f651.woff2);
+                font-style: normal;
+                font-weight: 300;
+            }
+
+            @font-face {
+                font-family: YACgEZ1cb1Q-0;
+                src: url(fonts/f8f199f09526f79e87644ed227e0f651.woff2);
+                font-style: italic;
+                font-weight: 300;
+            }
+
+            @font-face {
+                font-family: YACgEZ1cb1Q-0;
+                src: url(fonts/f8f199f09526f79e87644ed227e0f651.woff2);
+                font-style: normal;
+                font-weight: 500;
+            }
+
+            @font-face {
+                font-family: YACgEZ1cb1Q-0;
+                src: url(fonts/f8f199f09526f79e87644ed227e0f651.woff2);
+                font-style: italic;
+                font-weight: 500;
+            }
+
+            @font-face {
+                font-family: YACgEZ1cb1Q-0;
+                src: url(fonts/f8f199f09526f79e87644ed227e0f651.woff2);
+                font-style: normal;
+                font-weight: 600;
+            }
+
+            @font-face {
+                font-family: YACgEZ1cb1Q-0;
+                src: url(fonts/f8f199f09526f79e87644ed227e0f651.woff2);
+                font-style: italic;
+                font-weight: 600;
+            }
+
+            @font-face {
+                font-family: YACgEZ1cb1Q-0;
+                src: url(fonts/f8f199f09526f79e87644ed227e0f651.woff2);
+                font-style: normal;
+                font-weight: 800;
+            }
+
+            @font-face {
+                font-family: YACgEZ1cb1Q-0;
+                src: url(fonts/f8f199f09526f79e87644ed227e0f651.woff2);
+                font-style: italic;
+                font-weight: 800;
+            }
+
+            @font-face {
+                font-family: YACgEZ1cb1Q-0;
+                src: url(fonts/f8f199f09526f79e87644ed227e0f651.woff2);
+                font-style: normal;
+                font-weight: 900;
+            }
+
+            @font-face {
+                font-family: YACgEZ1cb1Q-0;
+                src: url(fonts/f8f199f09526f79e87644ed227e0f651.woff2);
+                font-style: italic;
+                font-weight: 900;
+            }
+
+            @font-face {
+                font-family: YACgEblklxo-0;
+                src: url(fonts/e9788528eb922b75f6e20e6a0199549f.woff2);
+                font-style: normal;
+                font-weight: 400;
+            }
+
+            @font-face {
+                font-family: YACgEblklxo-0;
+                src: url(fonts/e9788528eb922b75f6e20e6a0199549f.woff2);
+                font-style: normal;
+                font-weight: 700;
+            }
+
+            @font-face {
+                font-family: YACgEblklxo-0;
+                src: url(fonts/e9788528eb922b75f6e20e6a0199549f.woff2);
+                font-style: italic;
+                font-weight: 400;
+            }
+
+            @font-face {
+                font-family: YACgEblklxo-0;
+                src: url(fonts/e9788528eb922b75f6e20e6a0199549f.woff2);
+                font-style: italic;
+                font-weight: 700;
+            }
+
+            @font-face {
+                font-family: YACgEblklxo-0;
+                src: url(fonts/e9788528eb922b75f6e20e6a0199549f.woff2);
+                font-style: normal;
+                font-weight: 100;
+            }
+
+            @font-face {
+                font-family: YACgEblklxo-0;
+                src: url(fonts/e9788528eb922b75f6e20e6a0199549f.woff2);
+                font-style: italic;
+                font-weight: 100;
+            }
+
+            @font-face {
+                font-family: YACgEblklxo-0;
+                src: url(fonts/e9788528eb922b75f6e20e6a0199549f.woff2);
+                font-style: normal;
+                font-weight: 200;
+            }
+
+            @font-face {
+                font-family: YACgEblklxo-0;
+                src: url(fonts/e9788528eb922b75f6e20e6a0199549f.woff2);
+                font-style: italic;
+                font-weight: 200;
+            }
+
+            @font-face {
+                font-family: YACgEblklxo-0;
+                src: url(fonts/e9788528eb922b75f6e20e6a0199549f.woff2);
+                font-style: normal;
+                font-weight: 300;
+            }
+
+            @font-face {
+                font-family: YACgEblklxo-0;
+                src: url(fonts/e9788528eb922b75f6e20e6a0199549f.woff2);
+                font-style: italic;
+                font-weight: 300;
+            }
+
+            @font-face {
+                font-family: YACgEblklxo-0;
+                src: url(fonts/e9788528eb922b75f6e20e6a0199549f.woff2);
+                font-style: normal;
+                font-weight: 500;
+            }
+
+            @font-face {
+                font-family: YACgEblklxo-0;
+                src: url(fonts/e9788528eb922b75f6e20e6a0199549f.woff2);
+                font-style: italic;
+                font-weight: 500;
+            }
+
+            @font-face {
+                font-family: YACgEblklxo-0;
+                src: url(fonts/e9788528eb922b75f6e20e6a0199549f.woff2);
+                font-style: normal;
+                font-weight: 600;
+            }
+
+            @font-face {
+                font-family: YACgEblklxo-0;
+                src: url(fonts/e9788528eb922b75f6e20e6a0199549f.woff2);
+                font-style: italic;
+                font-weight: 600;
+            }
+
+            @font-face {
+                font-family: YACgEblklxo-0;
+                src: url(fonts/e9788528eb922b75f6e20e6a0199549f.woff2);
+                font-style: normal;
+                font-weight: 800;
+            }
+
+            @font-face {
+                font-family: YACgEblklxo-0;
+                src: url(fonts/e9788528eb922b75f6e20e6a0199549f.woff2);
+                font-style: italic;
+                font-weight: 800;
+            }
+
+            @font-face {
+                font-family: YACgEblklxo-0;
+                src: url(fonts/e9788528eb922b75f6e20e6a0199549f.woff2);
+                font-style: normal;
+                font-weight: 900;
+            }
+
+            @font-face {
+                font-family: YACgEblklxo-0;
+                src: url(fonts/e9788528eb922b75f6e20e6a0199549f.woff2);
+                font-style: italic;
+                font-weight: 900;
+            }
+
+            @media (max-width: 375px) {
+                #cQx6dhVAm0tDIXnR {
+                    grid-area: 2 / 2 / 3 / 3;
+                    position: relative;
+                }
+
+                #MQk5PLHYZIVi5JAv {
+                    grid-template-columns: 0 410.71778813%;
+                    left: -155.35889407%;
+                    grid-template-rows: 0 100%;
+                }
+
+                #bRSOoALuVVlmsCMQ {
+                    font-size: max(calc(12px * var(--rfso, var(--bfso, 1))), calc(6.31166909em - var(--ffsd)));
+                }
+
+                #ezgzZZsxxjhb8IvR {
+                    --first-font-size: max(calc(12px * var(--rfso, var(--bfso, 1))), 6.31166909em);
+                    --last-font-size: var(--first-font-size);
+                    margin-top: calc(var(--first-font-size) * -0.1);
+                    margin-bottom: calc(var(--last-font-size) * -0.1);
+                }
+
+                #zpKuZfGck9RglAMn {
+                    min-width: 91.6rem;
+                }
+
+                #VUpXdlhkcVoanFtf {
+                    grid-area: 2 / 2 / 3 / 11;
+                    position: relative;
+                    margin-left: -21.42577239%;
+                    margin-right: 0%;
+                    margin-bottom: 0%;
+                    margin-top: 0%;
+                }
+
+                #hCpV134J8TDUzrWX {
+                    grid-area: 4 / 8 / 5 / 9;
+                    position: relative;
+                }
+
+                #hJQZDQRGSCO4FG3t {
+                    font-size: max(calc(12px * var(--rfso, var(--bfso, 1))), calc(12.2454668em - var(--ffsd)));
+                }
+
+                #AT6j2la2x1RET4Q2 {
+                    --first-font-size: max(calc(12px * var(--rfso, var(--bfso, 1))), 12.2454668em);
+                    --last-font-size: var(--first-font-size);
+                    margin-top: calc(var(--first-font-size) * -0.1);
+                    margin-bottom: calc(var(--last-font-size) * -0.1);
+                }
+
+                #FVLHeemaHH9xgRpW {
+                    min-width: 91.6rem;
+                }
+
+                #SV5NlJ00Yjw00okq {
+                    grid-area: 6 / 3 / 7 / 12;
+                    position: relative;
+                }
+
+                #DVyASEGzHNRpSO28 {
+                    font-size: calc(8.95772774em - var(--ffsd));
+                }
+
+                #rt1w20LsHoUzvZE3 {
+                    --first-font-size: 8.95772774em;
+                    --last-font-size: var(--first-font-size);
+                    margin-top: calc(var(--first-font-size) * -0.1);
+                    margin-bottom: calc(var(--last-font-size) * -0.1);
+                }
+
+                #k7TKjfSud3Wzg87B {
+                    min-width: 69.63709404rem;
+                }
+
+                #ecromjBPTb4H62fm {
+                    grid-area: 8 / 7 / 10 / 10;
+                    position: relative;
+                }
+
+                #e0sTO2gDVU8oDxa6 {
+                    font-size: calc(10.17153273em - var(--ffsd));
+                }
+
+                #z9Xn04g9pGjViHCE {
+                    --first-font-size: 10.17153273em;
+                    --last-font-size: var(--first-font-size);
+                    margin-top: calc(var(--first-font-size) * -0.1);
+                    margin-bottom: calc(var(--last-font-size) * -0.1);
+                }
+
+                #LqwZFJ0yu5crlULh {
+                    min-width: 91.6rem;
+                }
+
+                #TOBDRBeY489wOvmG {
+                    grid-area: 9 / 4 / 11 / 13;
+                    position: relative;
+                }
+
+                #YNFxXQXJvR7GRnr2 {
+                    font-size: max(calc(12px * var(--rfso, var(--bfso, 1))), calc(14.91858667em - var(--ffsd)));
+                }
+
+                #Boresv03eUCWdZKs {
+                    --first-font-size: max(calc(12px * var(--rfso, var(--bfso, 1))), 14.91858667em);
+                    --last-font-size: var(--first-font-size);
+                    margin-top: calc(var(--first-font-size) * -0.1);
+                    margin-bottom: calc(var(--last-font-size) * -0.1);
+                }
+
+                #LFvXN9Y8U3j3pJxG {
+                    min-width: 91.6rem;
+                }
+
+                #VBjbV1VfPetMF9YZ {
+                    grid-area: 12 / 5 / 13 / 14;
+                    position: relative;
+                }
+
+                #Jj5KKaHdRIXpqfcA {
+                    font-size: max(calc(12px * var(--rfso, var(--bfso, 1))), calc(4.96152em - var(--ffsd)));
+                }
+
+                #dO6BruBf5HOMl1n8 {
+                    --first-font-size: max(calc(12px * var(--rfso, var(--bfso, 1))), 4.96152em);
+                    --last-font-size: var(--first-font-size);
+                    margin-top: calc(var(--first-font-size) * -0.1);
+                    margin-bottom: calc(var(--last-font-size) * -0.1);
+                }
+
+                #nbXpy1cIDBVQxlF8 {
+                    min-width: 91.6rem;
+                }
+
+                #r2BE014hSefQ7Jkn {
+                    grid-area: 14 / 6 / 15 / 15;
+                    position: relative;
+                }
+
+                #qiG19bnR4HeV8A1i {
+                    grid-template-columns: 4.26666667rem 0 0 0 0 7.20961601rem 18.20027423rem 40.64688619rem 10.65660029rem 14.75328995rem 0 0 0 0 4.26666667rem;
+                    grid-template-rows: minmax(3.48644594rem, max-content) minmax(7.4950961rem, max-content) minmax(6.4rem, max-content) minmax(35.54754956rem, max-content) minmax(50.44799589rem, max-content) minmax(14.57497178rem, max-content) minmax(57.45040374rem, max-content) minmax(9.65580499rem, max-content) minmax(1.01202309rem, max-content) minmax(11.16389991rem, max-content) minmax(6.4rem, max-content) minmax(17.81628267rem, max-content) minmax(0.03805493rem, max-content) minmax(5.94102933rem, max-content) minmax(3.48644594rem, max-content);
+                }
+
+                #WWvVMV2EFWNUaDEH {
+                    min-height: calc(100 * var(--1vh, 1vh));
+                }
+            }
+
+            @media (min-width: 375.05px) and (max-width: 480px) {
+                #cQx6dhVAm0tDIXnR {
+                    grid-area: 2 / 2 / 3 / 3;
+                    position: relative;
+                }
+
+                #MQk5PLHYZIVi5JAv {
+                    grid-template-columns: 0 333.76626339%;
+                    left: -116.88313169%;
+                    grid-template-rows: 0 100%;
+                }
+
+                #bRSOoALuVVlmsCMQ {
+                    font-size: max(calc(12px * var(--rfso, var(--bfso, 1))), calc(6.44047866em - var(--ffsd)));
+                }
+
+                #ezgzZZsxxjhb8IvR {
+                    --first-font-size: max(calc(12px * var(--rfso, var(--bfso, 1))), 6.44047866em);
+                    --last-font-size: var(--first-font-size);
+                    margin-top: calc(var(--first-font-size) * -0.1);
+                    margin-bottom: calc(var(--last-font-size) * -0.1);
+                }
+
+                #zpKuZfGck9RglAMn {
+                    min-width: 93.4375rem;
+                }
+
+                #VUpXdlhkcVoanFtf {
+                    grid-area: 2 / 2 / 3 / 12;
+                    position: relative;
+                    margin-left: -21.42577239%;
+                    margin-right: 0%;
+                    margin-bottom: 0%;
+                    margin-top: 0%;
+                }
+
+                #hCpV134J8TDUzrWX {
+                    grid-area: 4 / 8 / 5 / 9;
+                    position: relative;
+                }
+
+                #hJQZDQRGSCO4FG3t {
+                    font-size: max(calc(12px * var(--rfso, var(--bfso, 1))), calc(12.49537429em - var(--ffsd)));
+                }
+
+                #AT6j2la2x1RET4Q2 {
+                    --first-font-size: max(calc(12px * var(--rfso, var(--bfso, 1))), 12.49537429em);
+                    --last-font-size: var(--first-font-size);
+                    margin-top: calc(var(--first-font-size) * -0.1);
+                    margin-bottom: calc(var(--last-font-size) * -0.1);
+                }
+
+                #FVLHeemaHH9xgRpW {
+                    min-width: 93.4375rem;
+                }
+
+                #SV5NlJ00Yjw00okq {
+                    grid-area: 6 / 3 / 7 / 13;
+                    position: relative;
+                }
+
+                #DVyASEGzHNRpSO28 {
+                    font-size: calc(7.80674913em - var(--ffsd));
+                }
+
+                #rt1w20LsHoUzvZE3 {
+                    --first-font-size: 7.80674913em;
+                    --last-font-size: var(--first-font-size);
+                    margin-top: calc(var(--first-font-size) * -0.1);
+                    margin-bottom: calc(var(--last-font-size) * -0.1);
+                }
+
+                #k7TKjfSud3Wzg87B {
+                    min-width: 60.67738778rem;
+                }
+
+                #ecromjBPTb4H62fm {
+                    grid-area: 8 / 7 / 10 / 10;
+                    position: relative;
+                }
+
+                #e0sTO2gDVU8oDxa6 {
+                    font-size: calc(8.86459229em - var(--ffsd));
+                }
+
+                #z9Xn04g9pGjViHCE {
+                    --first-font-size: 8.86459229em;
+                    --last-font-size: var(--first-font-size);
+                    margin-top: calc(var(--first-font-size) * -0.1);
+                    margin-bottom: calc(var(--last-font-size) * -0.1);
+                }
+
+                #LqwZFJ0yu5crlULh {
+                    min-width: 79.81827951rem;
+                }
+
+                #TOBDRBeY489wOvmG {
+                    grid-area: 9 / 6 / 11 / 11;
+                    position: relative;
+                }
+
+                #YNFxXQXJvR7GRnr2 {
+                    font-size: max(calc(12px * var(--rfso, var(--bfso, 1))), calc(11.65514583em - var(--ffsd)));
+                }
+
+                #Boresv03eUCWdZKs {
+                    --first-font-size: max(calc(12px * var(--rfso, var(--bfso, 1))), 11.65514583em);
+                    --last-font-size: var(--first-font-size);
+                    margin-top: calc(var(--first-font-size) * -0.1);
+                    margin-bottom: calc(var(--last-font-size) * -0.1);
+                }
+
+                #LFvXN9Y8U3j3pJxG {
+                    min-width: 93.4375rem;
+                }
+
+                #VBjbV1VfPetMF9YZ {
+                    grid-area: 12 / 4 / 13 / 14;
+                    position: relative;
+                }
+
+                #Jj5KKaHdRIXpqfcA {
+                    font-size: max(calc(12px * var(--rfso, var(--bfso, 1))), calc(3.8761875em - var(--ffsd)));
+                }
+
+                #dO6BruBf5HOMl1n8 {
+                    --first-font-size: max(calc(12px * var(--rfso, var(--bfso, 1))), 3.8761875em);
+                    --last-font-size: var(--first-font-size);
+                    margin-top: calc(var(--first-font-size) * -0.1);
+                    margin-bottom: calc(var(--last-font-size) * -0.1);
+                }
+
+                #nbXpy1cIDBVQxlF8 {
+                    min-width: 93.4375rem;
+                }
+
+                #r2BE014hSefQ7Jkn {
+                    grid-area: 14 / 5 / 15 / 15;
+                    position: relative;
+                }
+
+                #qiG19bnR4HeV8A1i {
+                    grid-template-columns: 3.33333333rem 0 0 0 6.80961025rem 6.2832523rem 17.6961142rem 31.75537983rem 11.12172708rem 12.85763943rem 6.80961025rem 0 0 0 3.33333333rem;
+                    grid-template-rows: minmax(2.72378589rem, max-content) minmax(7.64805724rem, max-content) minmax(5rem, max-content) minmax(27.77152309rem, max-content) minmax(39.41249679rem, max-content) minmax(14.87242019rem, max-content) minmax(44.88312792rem, max-content) minmax(8.41513041rem, max-content) minmax(0.88198822rem, max-content) minmax(9.72945019rem, max-content) minmax(5rem, max-content) minmax(13.91897083rem, max-content) minmax(0.02973041rem, max-content) minmax(4.64142917rem, max-content) minmax(2.72378589rem, max-content);
+                }
+
+                #WWvVMV2EFWNUaDEH {
+                    min-height: calc(100 * var(--1vh, 1vh));
+                }
+            }
+
+            @media (min-width: 480.05px) and (max-width: 768px) {
+                #cQx6dhVAm0tDIXnR {
+                    grid-area: 2 / 2 / 3 / 3;
+                    position: relative;
+                }
+
+                #MQk5PLHYZIVi5JAv {
+                    grid-template-columns: 0 196.17679575%;
+                    left: -48.08839787%;
+                    grid-template-rows: 0 100%;
+                }
+
+                #bRSOoALuVVlmsCMQ {
+                    font-size: max(calc(12px * var(--rfso, var(--bfso, 1))), calc(4.48852024em - var(--ffsd)));
+                }
+
+                #ezgzZZsxxjhb8IvR {
+                    --first-font-size: max(calc(12px * var(--rfso, var(--bfso, 1))), 4.48852024em);
+                    --last-font-size: var(--first-font-size);
+                    margin-top: calc(var(--first-font-size) * -0.1);
+                    margin-bottom: calc(var(--last-font-size) * -0.1);
+                }
+
+                #zpKuZfGck9RglAMn {
+                    min-width: 91.73177083rem;
+                }
+
+                #VUpXdlhkcVoanFtf {
+                    grid-area: 2 / 2 / 3 / 14;
+                    position: relative;
+                    margin-left: -21.42577239%;
+                    margin-right: 0%;
+                    margin-bottom: 0%;
+                    margin-top: 0%;
+                }
+
+                #hCpV134J8TDUzrWX {
+                    grid-area: 4 / 6 / 5 / 9;
+                    position: relative;
+                }
+
+                #hJQZDQRGSCO4FG3t {
+                    font-size: max(calc(12px * var(--rfso, var(--bfso, 1))), calc(11.23911458em - var(--ffsd)));
+                }
+
+                #AT6j2la2x1RET4Q2 {
+                    --first-font-size: max(calc(12px * var(--rfso, var(--bfso, 1))), 11.23911458em);
+                    --last-font-size: var(--first-font-size);
+                    margin-top: calc(var(--first-font-size) * -0.1);
+                    margin-bottom: calc(var(--last-font-size) * -0.1);
+                }
+
+                #FVLHeemaHH9xgRpW {
+                    min-width: 91.73177083rem;
+                }
+
+                #SV5NlJ00Yjw00okq {
+                    grid-area: 6 / 3 / 7 / 15;
+                    position: relative;
+                }
+
+                #DVyASEGzHNRpSO28 {
+                    font-size: calc(4.8792182em - var(--ffsd));
+                }
+
+                #rt1w20LsHoUzvZE3 {
+                    --first-font-size: 4.8792182em;
+                    --last-font-size: var(--first-font-size);
+                    margin-top: calc(var(--first-font-size) * -0.1);
+                    margin-bottom: calc(var(--last-font-size) * -0.1);
+                }
+
+                #k7TKjfSud3Wzg87B {
+                    min-width: 37.92336736rem;
+                }
+
+                #ecromjBPTb4H62fm {
+                    grid-area: 8 / 5 / 11 / 7;
+                    position: relative;
+                }
+
+                #e0sTO2gDVU8oDxa6 {
+                    font-size: calc(5.54037018em - var(--ffsd));
+                }
+
+                #z9Xn04g9pGjViHCE {
+                    --first-font-size: 5.54037018em;
+                    --last-font-size: var(--first-font-size);
+                    margin-top: calc(var(--first-font-size) * -0.1);
+                    margin-bottom: calc(var(--last-font-size) * -0.1);
+                }
+
+                #LqwZFJ0yu5crlULh {
+                    min-width: 49.88642469rem;
+                }
+
+                #TOBDRBeY489wOvmG {
+                    grid-area: 10 / 4 / 15 / 8;
+                    position: relative;
+                }
+
+                #YNFxXQXJvR7GRnr2 {
+                    font-size: max(calc(12px * var(--rfso, var(--bfso, 1))), calc(7.28446615em - var(--ffsd)));
+                }
+
+                #Boresv03eUCWdZKs {
+                    --first-font-size: max(calc(12px * var(--rfso, var(--bfso, 1))), 7.28446615em);
+                    --last-font-size: var(--first-font-size);
+                    margin-top: calc(var(--first-font-size) * -0.1);
+                    margin-bottom: calc(var(--last-font-size) * -0.1);
+                }
+
+                #LFvXN9Y8U3j3pJxG {
+                    min-width: 27.90323893rem;
+                }
+
+                #VBjbV1VfPetMF9YZ {
+                    grid-area: 9 / 10 / 12 / 12;
+                    position: relative;
+                }
+
+                #Jj5KKaHdRIXpqfcA {
+                    font-size: max(calc(12px * var(--rfso, var(--bfso, 1))), calc(2.42261719em - var(--ffsd)));
+                }
+
+                #dO6BruBf5HOMl1n8 {
+                    --first-font-size: max(calc(12px * var(--rfso, var(--bfso, 1))), 2.42261719em);
+                    --last-font-size: var(--first-font-size);
+                    margin-top: calc(var(--first-font-size) * -0.1);
+                    margin-bottom: calc(var(--last-font-size) * -0.1);
+                }
+
+                #nbXpy1cIDBVQxlF8 {
+                    min-width: 27.90323893rem;
+                }
+
+                #r2BE014hSefQ7Jkn {
+                    grid-area: 13 / 11 / 14 / 13;
+                    position: relative;
+                }
+
+                #qiG19bnR4HeV8A1i {
+                    grid-template-columns: 4.16666667rem 0 4.92027235rem 3.92703269rem 27.06247209rem 10.7957911rem 8.03602464rem 1.01529665rem 3.15137002rem 0 27.83813477rem 0 4.92027235rem 0 4.16666667rem;
+                    grid-template-rows: minmax(2.74403285rem, max-content) minmax(5.33011rem, max-content) minmax(4.16666667rem, max-content) minmax(17.35720193rem, max-content) minmax(24.63281049rem, max-content) minmax(13.37717708rem, max-content) minmax(28.05195495rem, max-content) 0 minmax(5.25945651rem, max-content) minmax(0.55124264rem, max-content) minmax(2.88865762rem, max-content) minmax(0.01858151rem, max-content) minmax(2.90089323rem, max-content) minmax(0.27277401rem, max-content) minmax(2.74403285rem, max-content);
+                }
+
+                #WWvVMV2EFWNUaDEH {
+                    min-height: calc(100 * var(--1vh, 1vh));
+                }
+            }
+
+            @media (min-width: 768.05px) and (max-width: 1024px) {
+                #cQx6dhVAm0tDIXnR {
+                    grid-area: 2 / 2 / 3 / 3;
+                    position: relative;
+                }
+
+                #MQk5PLHYZIVi5JAv {
+                    grid-template-columns: 0 138.95670573%;
+                    left: -19.47835286%;
+                    grid-template-rows: 0 100%;
+                }
+
+                #bRSOoALuVVlmsCMQ {
+                    font-size: max(calc(12px * var(--rfso, var(--bfso, 1))), calc(3.36639018em - var(--ffsd)));
+                }
+
+                #ezgzZZsxxjhb8IvR {
+                    --first-font-size: max(calc(12px * var(--rfso, var(--bfso, 1))), 3.36639018em);
+                    --last-font-size: var(--first-font-size);
+                    margin-top: calc(var(--first-font-size) * -0.1);
+                    margin-bottom: calc(var(--last-font-size) * -0.1);
+                }
+
+                #zpKuZfGck9RglAMn {
+                    min-width: 48.83346558rem;
+                }
+
+                #VUpXdlhkcVoanFtf {
+                    grid-area: 2 / 5 / 4 / 8;
+                    position: relative;
+                    margin-left: -21.42577239%;
+                    margin-right: 0%;
+                    margin-bottom: 0%;
+                    margin-top: 0%;
+                }
+
+                #hCpV134J8TDUzrWX {
+                    grid-area: 3 / 11 / 5 / 12;
+                    position: relative;
+                }
+
+                #hJQZDQRGSCO4FG3t {
+                    font-size: max(calc(12px * var(--rfso, var(--bfso, 1))), calc(8.42933594em - var(--ffsd)));
+                }
+
+                #AT6j2la2x1RET4Q2 {
+                    --first-font-size: max(calc(12px * var(--rfso, var(--bfso, 1))), 8.42933594em);
+                    --last-font-size: var(--first-font-size);
+                    margin-top: calc(var(--first-font-size) * -0.1);
+                    margin-bottom: calc(var(--last-font-size) * -0.1);
+                }
+
+                #FVLHeemaHH9xgRpW {
+                    min-width: 93.79882812rem;
+                }
+
+                #SV5NlJ00Yjw00okq {
+                    grid-area: 6 / 2 / 7 / 15;
+                    position: relative;
+                }
+
+                #DVyASEGzHNRpSO28 {
+                    font-size: calc(3.65941365em - var(--ffsd));
+                }
+
+                #rt1w20LsHoUzvZE3 {
+                    --first-font-size: 3.65941365em;
+                    --last-font-size: var(--first-font-size);
+                    margin-top: calc(var(--first-font-size) * -0.1);
+                    margin-bottom: calc(var(--last-font-size) * -0.1);
+                }
+
+                #k7TKjfSud3Wzg87B {
+                    min-width: 28.44252552rem;
+                }
+
+                #ecromjBPTb4H62fm {
+                    grid-area: 8 / 4 / 11 / 6;
+                    position: relative;
+                }
+
+                #e0sTO2gDVU8oDxa6 {
+                    font-size: calc(4.15527763em - var(--ffsd));
+                }
+
+                #z9Xn04g9pGjViHCE {
+                    --first-font-size: 4.15527763em;
+                    --last-font-size: var(--first-font-size);
+                    margin-top: calc(var(--first-font-size) * -0.1);
+                    margin-bottom: calc(var(--last-font-size) * -0.1);
+                }
+
+                #LqwZFJ0yu5crlULh {
+                    min-width: 37.41481852rem;
+                }
+
+                #TOBDRBeY489wOvmG {
+                    grid-area: 10 / 3 / 15 / 7;
+                    position: relative;
+                }
+
+                #YNFxXQXJvR7GRnr2 {
+                    font-size: max(calc(12px * var(--rfso, var(--bfso, 1))), calc(5.46334961em - var(--ffsd)));
+                }
+
+                #Boresv03eUCWdZKs {
+                    --first-font-size: max(calc(12px * var(--rfso, var(--bfso, 1))), 5.46334961em);
+                    --last-font-size: var(--first-font-size);
+                    margin-top: calc(var(--first-font-size) * -0.1);
+                    margin-bottom: calc(var(--last-font-size) * -0.1);
+                }
+
+                #LFvXN9Y8U3j3pJxG {
+                    min-width: 20.9274292rem;
+                }
+
+                #VBjbV1VfPetMF9YZ {
+                    grid-area: 9 / 9 / 12 / 13;
+                    position: relative;
+                }
+
+                #Jj5KKaHdRIXpqfcA {
+                    font-size: max(calc(12px * var(--rfso, var(--bfso, 1))), calc(1.81696289em - var(--ffsd)));
+                }
+
+                #dO6BruBf5HOMl1n8 {
+                    --first-font-size: max(calc(12px * var(--rfso, var(--bfso, 1))), 1.81696289em);
+                    --last-font-size: var(--first-font-size);
+                    margin-top: calc(var(--first-font-size) * -0.1);
+                    margin-bottom: calc(var(--last-font-size) * -0.1);
+                }
+
+                #nbXpy1cIDBVQxlF8 {
+                    min-width: 20.9274292rem;
+                }
+
+                #r2BE014hSefQ7Jkn {
+                    grid-area: 13 / 10 / 14 / 14;
+                    position: relative;
+                }
+
+                #qiG19bnR4HeV8A1i {
+                    grid-template-columns: 3.125rem 0 2.94527452rem 10.53223961rem 17.86145779rem 6.02701848rem 24.89616118rem 0.47315007rem 0 2.65184993rem 14.8853343rem 3.34141684rem 0 10.13609728rem 3.125rem;
+                    grid-template-rows: minmax(3.32096876rem, max-content) 0 minmax(3.9975825rem, max-content) minmax(9.02031895rem, max-content) minmax(18.47460787rem, max-content) minmax(10.03288281rem, max-content) minmax(21.03896621rem, max-content) 0 minmax(3.94459238rem, max-content) minmax(0.41343198rem, max-content) minmax(2.16649322rem, max-content) minmax(0.01393613rem, max-content) minmax(2.17566992rem, max-content) minmax(0.20458051rem, max-content) minmax(3.32096876rem, max-content);
+                }
+
+                #WWvVMV2EFWNUaDEH {
+                    min-height: calc(100 * var(--1vh, 1vh));
+                }
+            }
+
+            @media (min-width: 1024.05px) {
+                #cQx6dhVAm0tDIXnR {
+                    grid-area: 2 / 2 / 3 / 3;
+                    position: relative;
+                }
+
+                #MQk5PLHYZIVi5JAv {
+                    grid-template-columns: 0 100%;
+                    grid-template-rows: 0 100%;
+                }
+
+                #bRSOoALuVVlmsCMQ {
+                    font-size: max(calc(12px * var(--rfso, var(--bfso, 1))), calc(2.52356043em - var(--ffsd)));
+                }
+
+                #ezgzZZsxxjhb8IvR {
+                    --first-font-size: max(calc(12px * var(--rfso, var(--bfso, 1))), 2.52356043em);
+                    --last-font-size: var(--first-font-size);
+                    margin-top: calc(var(--first-font-size) * -0.1);
+                    margin-bottom: calc(var(--last-font-size) * -0.1);
+                }
+
+                #zpKuZfGck9RglAMn {
+                    min-width: 36.60722456rem;
+                }
+
+                #VUpXdlhkcVoanFtf {
+                    grid-area: 2 / 2 / 4 / 5;
+                    position: relative;
+                    margin-left: -21.42577239%;
+                    margin-right: 0%;
+                    margin-bottom: 0%;
+                    margin-top: 0%;
+                }
+
+                #hCpV134J8TDUzrWX {
+                    grid-area: 3 / 12 / 5 / 14;
+                    position: relative;
+                }
+
+                #hJQZDQRGSCO4FG3t {
+                    font-size: max(calc(12px * var(--rfso, var(--bfso, 1))), calc(6.31891654em - var(--ffsd)));
+                }
+
+                #AT6j2la2x1RET4Q2 {
+                    --first-font-size: max(calc(12px * var(--rfso, var(--bfso, 1))), 6.31891654em);
+                    --last-font-size: var(--first-font-size);
+                    margin-top: calc(var(--first-font-size) * -0.1);
+                    margin-bottom: calc(var(--last-font-size) * -0.1);
+                }
+
+                #FVLHeemaHH9xgRpW {
+                    min-width: 47.23531296rem;
+                }
+
+                #SV5NlJ00Yjw00okq {
+                    grid-area: 6 / 3 / 7 / 9;
+                    position: relative;
+                }
+
+                #DVyASEGzHNRpSO28 {
+                    font-size: calc(2.74322078em - var(--ffsd));
+                }
+
+                #rt1w20LsHoUzvZE3 {
+                    --first-font-size: 2.74322078em;
+                    --last-font-size: var(--first-font-size);
+                    margin-top: calc(var(--first-font-size) * -0.1);
+                    margin-bottom: calc(var(--last-font-size) * -0.1);
+                }
+
+                #k7TKjfSud3Wzg87B {
+                    min-width: 21.32148326rem;
+                }
+
+                #ecromjBPTb4H62fm {
+                    grid-area: 8 / 6 / 11 / 7;
+                    position: relative;
+                }
+
+                #e0sTO2gDVU8oDxa6 {
+                    font-size: calc(3.11493726em - var(--ffsd));
+                }
+
+                #z9Xn04g9pGjViHCE {
+                    --first-font-size: 3.11493726em;
+                    --last-font-size: var(--first-font-size);
+                    margin-top: calc(var(--first-font-size) * -0.1);
+                    margin-bottom: calc(var(--last-font-size) * -0.1);
+                }
+
+                #LqwZFJ0yu5crlULh {
+                    min-width: 28.04741886rem;
+                }
+
+                #TOBDRBeY489wOvmG {
+                    grid-area: 10 / 4 / 15 / 8;
+                    position: relative;
+                }
+
+                #YNFxXQXJvR7GRnr2 {
+                    font-size: max(calc(12px * var(--rfso, var(--bfso, 1))), calc(4.09551245em - var(--ffsd)));
+                }
+
+                #Boresv03eUCWdZKs {
+                    --first-font-size: max(calc(12px * var(--rfso, var(--bfso, 1))), 4.09551245em);
+                    --last-font-size: var(--first-font-size);
+                    margin-top: calc(var(--first-font-size) * -0.1);
+                    margin-bottom: calc(var(--last-font-size) * -0.1);
+                }
+
+                #LFvXN9Y8U3j3pJxG {
+                    min-width: 10.12307833rem;
+                }
+
+                #VBjbV1VfPetMF9YZ {
+                    grid-area: 9 / 11 / 12 / 13;
+                    position: relative;
+                }
+
+                #Jj5KKaHdRIXpqfcA {
+                    font-size: max(calc(12px * var(--rfso, var(--bfso, 1))), calc(1.3620571em - var(--ffsd)));
+                }
+
+                #dO6BruBf5HOMl1n8 {
+                    --first-font-size: max(calc(12px * var(--rfso, var(--bfso, 1))), 1.3620571em);
+                    --last-font-size: var(--first-font-size);
+                    margin-top: calc(var(--first-font-size) * -0.1);
+                    margin-bottom: calc(var(--last-font-size) * -0.1);
+                }
+
+                #nbXpy1cIDBVQxlF8 {
+                    min-width: 15.68791179rem;
+                }
+
+                #r2BE014hSefQ7Jkn {
+                    grid-area: 13 / 10 / 14 / 15;
+                    position: relative;
+                }
+
+                #qiG19bnR4HeV8A1i {
+                    grid-template-columns: 0 26.40064513rem 9.59394705rem 0.57602916rem 1.63184866rem 21.28488004rem 4.51805778rem 9.59394705rem 9.4237504rem 2.78241673rem 0.05804735rem 10.02842776rem 1.13012445rem 1.65229228rem 1.32558616rem;
+                    grid-template-rows: minmax(0.7429242rem, max-content) 0 minmax(2.99672363rem, max-content) minmax(6.76193749rem, max-content) minmax(13.8491936rem, max-content) minmax(7.52098975rem, max-content) minmax(15.77152372rem, max-content) 0 minmax(2.95700044rem, max-content) minmax(0.30992265rem, max-content) minmax(1.62407691rem, max-content) minmax(0.010447rem, max-content) minmax(1.63095608rem, max-content) minmax(0.1533605rem, max-content) minmax(1.89349163rem, max-content);
+                }
+
+                #WWvVMV2EFWNUaDEH {
+                    min-height: calc(100 * var(--1vh, 1vh));
+                }
+            }
+
+            @keyframes pulse {
+                0% {
+                    background-color: rgba(226, 226, 226, 0.05);
+                }
+
+                50% {
+                    background-color: rgba(226, 226, 226, 0.1);
+                }
+
+                100% {
+                    background-color: rgba(226, 226, 226, 0.05);
+                }
+            }
+        </style>
+        <noscript>
+            <style>
+                @keyframes pulse {
+                }
+
+                .animated {
+                    animation-play-state: running !important;
+                }
+            </style>
+        </noscript>
+        <script nonce='338c23b2-5cc0-485d-9dc1-f2e823454e29'>
+            !function() {
+                "use strict";
+                function t(t, n) {
+                    let e;
+                    return (...o)=>{
+                        clearTimeout(e),
+                        e = setTimeout((()=>{
+                            t(...o)
+                        }
+                        ), n)
+                    }
+                }
+                class n {
+                    constructor() {
+                        this.callbacks = [],
+                        window.addEventListener("DOMContentLoaded", (()=>this.onDOMContentLoaded()))
+                    }
+                    onDOMContentLoaded() {
+                        this.callbacks.sort(((t,n)=>t.priority - n.priority)).forEach((({callback: t})=>t()))
+                    }
+                    runOnLoad(t) {
+                        "loading" === document.readyState ? this.callbacks.push(t) : t.callback()
+                    }
+                }
+                function e(t, e=Number.MAX_VALUE) {
+                    var o;
+                    (window.canva_scriptExecutor = null !== (o = window.canva_scriptExecutor) && void 0 !== o ? o : new n).runOnLoad({
+                        callback: t,
+                        priority: e
+                    })
+                }
+                class o {
+                    constructor(t) {
+                        this.items = [],
+                        this.previousWidth = document.documentElement.clientWidth,
+                        this.previousHeight = window.innerHeight;
+                        const n = t((()=>this.onWindowResize()), 100);
+                        window.addEventListener("resize", n)
+                    }
+                    onWindowResize() {
+                        const t = document.documentElement.clientWidth
+                          , n = window.innerHeight
+                          , e = this.previousWidth !== t
+                          , o = this.previousHeight !== n;
+                        this.items.forEach((t=>{
+                            const n = ()=>{
+                                t.callback(),
+                                t.executed = !0
+                            }
+                            ;
+                            (!t.executed || e && t.options.runOnWidthChange || o && t.options.runOnHeightChange) && n()
+                        }
+                        )),
+                        this.previousWidth = t,
+                        this.previousHeight = n
+                    }
+                    runOnResize(t, n) {
+                        this.items.push({
+                            callback: t,
+                            options: n,
+                            executed: n.runOnLoad
+                        }),
+                        this.items.sort(((t,n)=>t.options.priority - n.options.priority)),
+                        n.runOnLoad && e(t, n.priority)
+                    }
+                }
+                function i(n, e, i=t) {
+                    var r;
+                    (window.canva_debounceResize = null !== (r = window.canva_debounceResize) && void 0 !== r ? r : new o(i)).runOnResize(n, {
+                        runOnLoad: !1,
+                        runOnWidthChange: !0,
+                        runOnHeightChange: !1,
+                        priority: Number.MAX_VALUE,
+                        ...e
+                    })
+                }
+                const r = "--minfs"
+                  , c = "--rzf"
+                  , a = "--rfso"
+                  , s = "--bfso";
+                function u(t, n, e=.001) {
+                    return Math.abs(t - n) < e
+                }
+                function d(t, n) {
+                    return window.getComputedStyle(t).getPropertyValue(n)
+                }
+                function l(t, n, e) {
+                    t.style.setProperty(n, e)
+                }
+                function m(t, n) {
+                    const e = document.createElement("div");
+                    e.style.setProperty(t, n),
+                    document.body.append(e);
+                    const o = d(e, t);
+                    return e.remove(),
+                    o
+                }
+                function f() {
+                    const t = function() {
+                        const t = parseFloat(m("font-size", "0.1px"));
+                        return t > 1 ? t : 0
+                    }()
+                      , n = function(t) {
+                        const n = 2 * Math.max(t, 1);
+                        return n / parseFloat(m("font-size", `${n}px`))
+                    }(t);
+                    if (function(t) {
+                        if (0 === t)
+                            return;
+                        l(document.documentElement, r, `${t}px`),
+                        i((()=>{
+                            const n = 100 * t
+                              , {clientWidth: e} = document.documentElement;
+                            l(document.documentElement, c, n > e ? (e / n).toPrecision(4) : null)
+                        }
+                        ), {
+                            runOnLoad: !0
+                        })
+                    }(t * Math.max(1, n)),
+                    u(n, 1))
+                        return;
+                    const e = u(parseFloat(d(document.documentElement, "font-size")), parseFloat(m("grid-template-columns", "1rem")));
+                    l(document.documentElement, e ? a : s, n.toPrecision(4))
+                }
+                function h() {
+                    document.querySelectorAll("img, image, video, svg").forEach((t=>t.addEventListener("contextmenu", (t=>t.preventDefault()))))
+                }
+                const p = t=>{
+                    const n = {
+                        type: "CLICKED_LINK",
+                        link: t.currentTarget.getAttribute("href")
+                    };
+                    navigator.sendBeacon("_api/analytics/events", JSON.stringify(n))
+                }
+                ;
+                function g() {
+                    [...document.querySelectorAll("a[href][data-interstitial-link]")].forEach((t=>{
+                        t.addEventListener("click", p)
+                    }
+                    ))
+                }
+                const v = "--sbw"
+                  , w = "--inner1Vh";
+                function y(t, n, e) {
+                    t.style.setProperty(n, e)
+                }
+                function E() {
+                    y(document.documentElement, w, window.innerHeight / 100 + "px"),
+                    function() {
+                        const t = window.innerWidth - document.documentElement.clientWidth;
+                        y(document.documentElement, v, t >= 0 ? `${t}px` : null)
+                    }()
+                }
+                var b;
+                const O = "undefined" != typeof window ? null === (b = window.navigator) || void 0 === b ? void 0 : b.userAgent : void 0;
+                const L = !(!O || (A = O,
+                !A.match(/AppleWebKit\//) || A.match(/Chrome\//) || A.match(/Chromium\//)));
+                var A;
+                function x() {
+                    document.querySelectorAll("svg").forEach((t=>t.style.background = "url('data:image/png;base64,')"))
+                }
+                let C;
+                function W() {
+                    C || (C = Array.from(document.querySelectorAll("foreignObject")).filter((t=>0 === t.getBoundingClientRect().width)));
+                    const t = function() {
+                        const t = document.createElement("div");
+                        t.style.fontSize = "100vw",
+                        document.body.append(t);
+                        const n = parseFloat(window.getComputedStyle(t).fontSize);
+                        return t.remove(),
+                        n / window.innerWidth
+                    }();
+                    Array.from(C).forEach((n=>function(t) {
+                        return new Promise(((n,e)=>{
+                            const o = t.querySelector("img");
+                            o && !o.complete ? (o.addEventListener("load", (()=>n())),
+                            o.addEventListener("error", (()=>e()))) : n()
+                        }
+                        ))
+                    }(n).finally((()=>function(t, n) {
+                        const e = Array.from(t.children);
+                        e.forEach(((t,n)=>{
+                            if (t.hasAttribute("data-foreign-object-container"))
+                                t.style.transformOrigin = "",
+                                t.style.transform = "";
+                            else {
+                                const o = document.createElement("div");
+                                o.setAttribute("data-foreign-object-container", ""),
+                                t.insertAdjacentElement("beforebegin", o),
+                                t.remove(),
+                                o.append(t),
+                                e[n] = o
+                            }
+                        }
+                        ));
+                        const o = t.getScreenCTM();
+                        if (!o)
+                            return;
+                        const {a: i, b: r, c: c, d: a} = o.scale(n);
+                        e.forEach((t=>{
+                            if (!t.hasAttribute("data-foreign-object-container"))
+                                return;
+                            const {style: n} = t;
+                            n.transformOrigin = "0px 0px",
+                            n.transform = `matrix(${i}, ${r}, ${c}, ${a}, 0, 0)`
+                        }
+                        ))
+                    }(n, t)))))
+                }
+                [function() {
+                    e(f)
+                }
+                , function() {
+                    i(E, {
+                        runOnLoad: !0,
+                        runOnHeightChange: !0,
+                        priority: 1
+                    })
+                }
+                , function() {
+                    L && i(W, {
+                        runOnLoad: !0
+                    })
+                }
+                , function() {
+                    L && e(x)
+                }
+                , function() {
+                    e(h)
+                }
+                , function() {
+                    e(g)
+                }
+                ].forEach((t=>t()))
+            }();
+        </script>
+        <script nonce="338c23b2-5cc0-485d-9dc1-f2e823454e29">
+            window.C_CAPTCHA_IMPLEMENTATION = 'RECAPTCHA';
+        </script>
+        <script nonce="338c23b2-5cc0-485d-9dc1-f2e823454e29">
+            window.C_CAPTCHA_KEY = '6Ldk59waAAAAAMPqkICbJjfMivZLCGtTpa6Wn6zO';
+        </script>
+    </head>
+    <body>
+        <div id="root">
+            <a id="page-1" aria-hidden="true" style="visibility:hidden;"></a>
+            <section id="WWvVMV2EFWNUaDEH" style="position:relative;overflow:hidden;display:grid;align-items:center;grid-template-columns:auto 100rem auto;z-index:0;">
+                <div id="MQk5PLHYZIVi5JAv" style="grid-area:1 / 1 / 2 / 4;display:grid;position:absolute;min-height:100%;min-width:100%;">
+                    <div id="cQx6dhVAm0tDIXnR" style="z-index:0;">
+                        <div id="zDY4dUB2ehjXIgey" style="box-sizing:border-box;width:100%;height:100%;transform:rotate(0deg);">
+                            <div id="vYOje6E6O0F5EYZ3" style="width:100%;height:100%;opacity:1.0;">
+                                <div id="BV4URw9bNaADBUYd" class="video_container" style="background-color:#ffffff;opacity:1.0;transform:scale(1, 1);width:100%;height:100%;overflow:hidden;position:relative;">
+                                    <div id="BmlBofcMJQ5Ymi6y" style="width:calc(100% * max(1, var(--scale-fill, 1)));height:calc(100.04882813% / min(1, var(--scale-fill, 1)));position:absolute;top:50%;left:50%;opacity:1.0;">
+                                        <video src="videos/fe15cf9b323a387b111b6c001d0d0775.mp4" playsinline="" preload="none" autoplay="" muted="" loop="" style="width:100%;height:100%;display:block;object-fit:cover;object-position:50% 50%;transform:translate(-50%, -50%) rotate(0deg);"></video>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="qiG19bnR4HeV8A1i" style="display:grid;position:relative;grid-area:1 / 2 / 2 / 3;">
+                    <div id="VUpXdlhkcVoanFtf" style="z-index:3;">
+                        <div id="zpKuZfGck9RglAMn" style="box-sizing:border-box;width:100%;height:100%;transform:rotate(0deg);">
+                            <div id="ezgzZZsxxjhb8IvR" style="opacity:1.0;display:flex;box-sizing:border-box;flex-direction:column;justify-content:flex-start;width:100%;height:100%;">
+                                <p id="bRSOoALuVVlmsCMQ" style="color:#8c59f1;font-family:YACgEblklxo-0;line-height:1.39244109em;text-align:center;text-transform:none;letter-spacing:0em;">
+                                    <span id="t4I6iE9OIltLZFvF" style="text-decoration-line:underline;color:#8c59f1;">EMERGENCY BUTTON</span>
+                                    <br>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="hCpV134J8TDUzrWX" style="z-index:1;">
+                        <div id="QTAIDuLmprSSDc5q" style="padding-top:87.45454545%;transform:rotate(0deg);">
+                            <div id="THbo17ZZJ2nDpSUi" style="position:absolute;top:0px;left:0px;width:100%;height:100%;">
+                                <a id="hkc8FF7SAaX1Xesw" target="_self" rel="noopener" href="https://cleverportal.my.canva.site/math" style="pointer-events:all;" data-interstitial-link="">
+                                    <div id="bY64xFdnvHtnki0o" style="width:100%;height:100%;opacity:1.0;">
+                                        <div id="oKwrUSDtjKWN4S9v" style="transform:scale(1, 1);width:100%;height:100%;overflow:hidden;position:relative;">
+                                            <div id="vmBa1PoaEk0Y3RQU" style="width:calc(100% * max(1, var(--scale-fill, 1)));height:calc(100% / min(1, var(--scale-fill, 1)));position:absolute;top:50%;left:50%;opacity:1.0;animation:pulse 1.5s ease-in-out infinite;">
+                                                <img src="images/29fe15aadc2133f06819a6acd01ef7be.svg" alt="Game Console Controller" loading="lazy" style="width:100%;height:100%;display:block;object-fit:cover;object-position:50% 50%;transform:translate(-50%, -50%) rotate(0deg);">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="SV5NlJ00Yjw00okq" style="z-index:2;">
+                        <div id="FVLHeemaHH9xgRpW" style="box-sizing:border-box;width:100%;height:100%;transform:rotate(0deg);">
+                            <div id="AT6j2la2x1RET4Q2" style="opacity:1.0;display:flex;box-sizing:border-box;flex-direction:column;justify-content:flex-start;width:100%;height:100%;">
+                                <p id="hJQZDQRGSCO4FG3t" style="color:#8c59f1;font-family:YACgEblklxo-0;line-height:1.39023407em;text-align:center;text-transform:none;letter-spacing:0em;">
+                                    <span id="EzzRIyDqi4GE336q" style="color:#8c59f1;white-space:pre-wrap;"></span>
+                                    <span id="dMehWI1fZne5qqmV" style="color:#8c59f1;">GALAXY HUB V3</span>
+                                    <br>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="ecromjBPTb4H62fm" style="z-index:4;">
+                        <div id="k7TKjfSud3Wzg87B" style="box-sizing:border-box;width:100%;height:100%;transform:rotate(0deg);">
+                            <div id="rt1w20LsHoUzvZE3" style="opacity:1.0;display:flex;box-sizing:border-box;flex-direction:column;justify-content:flex-start;width:100%;height:100%;">
+                                <p id="DVyASEGzHNRpSO28" style="color:#8c59f1;font-family:YACgEblklxo-0;line-height:1.38768816em;text-align:center;text-transform:none;letter-spacing:0em;">
+                                    <span id="kIA5ytELwDFBPUUp" style="color:#8c59f1;">CREATED BY ALEX</span>
+                                    <br>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="TOBDRBeY489wOvmG" style="z-index:5;">
+                        <div id="LqwZFJ0yu5crlULh" style="box-sizing:border-box;width:100%;height:100%;transform:rotate(0deg);">
+                            <div id="z9Xn04g9pGjViHCE" style="opacity:1.0;display:flex;box-sizing:border-box;flex-direction:column;justify-content:flex-start;width:100%;height:100%;">
+                                <p id="e0sTO2gDVU8oDxa6" style="color:#8c59f1;font-family:YACgEblklxo-0;line-height:1.38660259em;text-align:center;text-transform:none;letter-spacing:0em;">
+                                    <a id="xn35vDLHAXcfJYFI" target="_blank" rel="noopener" href="https://forms.gle/ivQtjAvrqrxBZ1JT9" style="text-decoration-line:underline;color:#8c59f1;pointer-events:all;" data-interstitial-link="">SUBMIT A WEBSITE</a>
+                                    <a id="KCudpm8lPzkMUSFp" target="_blank" rel="noopener" href="https://forms.gle/ivQtjAvrqrxBZ1JT9" style="text-decoration-line:underline;color:#8c59f1;pointer-events:all;" data-interstitial-link=""></a>
+                                    <br>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="VBjbV1VfPetMF9YZ" style="z-index:6;">
+                        <div id="LFvXN9Y8U3j3pJxG" style="box-sizing:border-box;width:100%;height:100%;transform:rotate(0deg);">
+                            <div id="Boresv03eUCWdZKs" style="opacity:1.0;display:flex;box-sizing:border-box;flex-direction:column;justify-content:flex-start;width:100%;height:100%;">
+                                <p id="YNFxXQXJvR7GRnr2" style="color:#8c59f1;font-family:YACgEblklxo-0;line-height:1.39423395em;text-align:center;text-transform:none;letter-spacing:0em;">
+                                    <span id="Lk9Wb2FlwmZ8BAId" style="color:#8c59f1;">V3.10</span>
+                                    <br>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="r2BE014hSefQ7Jkn" style="z-index:7;">
+                        <div id="nbXpy1cIDBVQxlF8" style="box-sizing:border-box;width:100%;height:100%;transform:rotate(0deg);">
+                            <div id="dO6BruBf5HOMl1n8" style="opacity:1.0;display:flex;box-sizing:border-box;flex-direction:column;justify-content:flex-start;width:100%;height:100%;">
+                                <p id="Jj5KKaHdRIXpqfcA" style="color:#8c59f1;font-family:YACgEblklxo-0;line-height:1.39742122em;text-align:center;text-transform:none;letter-spacing:0em;">
+                                    <span id="g5DT1Ei8rAzpUjZU" style="color:#8c59f1;">-ADDED A COUPLE THINGS</span>
+                                    <br>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <script src="js/a7bdac05b24347a77bc2ba39247eaaf9c12b11b8b5b7c8ffcd473c8cd1f4ef7d.js" async="" nonce="338c23b2-5cc0-485d-9dc1-f2e823454e29"></script>
+            <script src="js/939898b427480d700449229ff00dbb8a6f9f77442b532f697866e6914ab8843a.js" async="" nonce="338c23b2-5cc0-485d-9dc1-f2e823454e29"></script>
+        </div>
+        <script nonce="338c23b2-5cc0-485d-9dc1-f2e823454e29">
+            const lang = navigator.language ? navigator.language : 'en';
+            const loaded = new Promise((resolve)=>{
+                if (document.readyState === 'loading') {
+                    window.addEventListener('DOMContentLoaded', resolve);
+                    return;
+                }
+                resolve();
+            }
+            )
+            Promise.all([fetch('_footer?lang=' + encodeURIComponent(lang)), loaded]).then(([response])=>{
+                if (response.status !== 200) {
+                    return;
+                }
+                response.text().then(footerStr=>{
+                    const div = document.createElement('div');
+                    div.innerHTML = footerStr;
+                    for (const child of [...div.children]) {
+                        if (child.tagName.toLowerCase() !== 'script') {
+                            document.body.append(child);
+                        }
+                    }
+
+                    (()=>{
+                        !function(e) {
+                            "use strict";
+                            const t = document.getElementById("modal_backdrop")
+                              , n = document.getElementById("modal")
+                              , o = document.getElementById("captcha-form")
+                              , c = document.getElementById("report_button")
+                              , d = document.getElementById("form_report")
+                              , s = document.getElementById("form_cancel")
+                              , l = document.getElementById("form_submit_reason")
+                              , a = document.getElementById("form_go_back")
+                              , r = document.getElementById("form_submit_captcha")
+                              , m = document.getElementById("form_close")
+                              , i = document.getElementById("form_close_initial")
+                              , u = document.getElementById("report_reason_0")
+                              , p = document.getElementById("error_message")
+                              , _ = document.getElementById("error_message_captcha")
+                              , y = new Map;
+                            y.set(0, document.getElementById("form_step_terms")),
+                            y.set(1, document.getElementById("form_step_report_reason")),
+                            y.set(4, document.getElementById("form_step_report_other"));
+                            const E = document.getElementById("form_step_report_ip");
+                            E && y.set(5, E),
+                            y.set(2, document.getElementById("form_step_captcha")),
+                            y.set(3, document.getElementById("form_step_success"));
+                            const f = document.getElementById("report_reason_4")
+                              , g = document.getElementById("form_close_ip")
+                              , h = document.getElementById("form_go_back_ip")
+                              , I = document.getElementById("report_reason_other")
+                              , k = document.getElementById("form_close_other")
+                              , w = document.getElementById("form_go_back_other");
+                            function v() {
+                                t.classList.remove("active"),
+                                n.classList.remove("active"),
+                                c.classList.remove("active"),
+                                c.focus()
+                            }
+                            function B(e) {
+                                y.forEach(((t,n)=>{
+                                    n === e ? (t.style.display = "block",
+                                    L(t)) : t.style.display = "none"
+                                }
+                                ))
+                            }
+                            let b, C = !1;
+                            const T = "NETEASE" === window.C_CAPTCHA_IMPLEMENTATION ? ()=>b : ()=>{
+                                const e = o.elements.namedItem("g-recaptcha-response");
+                                return null == e ? void 0 : e.value
+                            }
+                            ;
+                            t.onclick = v,
+                            s.onclick = v,
+                            m.onclick = v,
+                            i.onclick = v,
+                            g && (g.onclick = v),
+                            k.onclick = v,
+                            c.onclick = function() {
+                                y.forEach(((e,t)=>{
+                                    e.style.display = 0 === t ? "block" : "none"
+                                }
+                                )),
+                                t.classList.add("active"),
+                                n.classList.add("active"),
+                                c.classList.add("active"),
+                                u.checked = !0,
+                                setTimeout((()=>{
+                                    L(y.get(0))
+                                }
+                                ), 350)
+                            }
+                            ,
+                            d.onclick = d.dataset.reportUrl ? function() {
+                                const {origin: e, pathname: t} = window.location
+                                  , n = e + t
+                                  , o = d.dataset.reportUrl + encodeURIComponent(n);
+                                window.open(o)
+                            }
+                            : ()=>B(1),
+                            l.onclick = ()=>{
+                                null != E && f.checked ? B(5) : I.checked ? B(4) : (B(2),
+                                function() {
+                                    if (C)
+                                        return;
+                                    const e = document.createElement("script");
+                                    e.src = "NETEASE" === window.C_CAPTCHA_IMPLEMENTATION ? "https://cstaticdun.126.net/load.min.js" : "https://www.google.com/recaptcha/api.js",
+                                    e.async = !0,
+                                    e.defer = !0,
+                                    document.head.appendChild(e),
+                                    C = !0,
+                                    e.onload = "NETEASE" === window.C_CAPTCHA_IMPLEMENTATION ? ()=>{
+                                        var e;
+                                        null === (e = window.initNECaptcha) || void 0 === e || e.call(window, {
+                                            captchaId: window.C_CAPTCHA_KEY,
+                                            element: "#netease-captcha",
+                                            protocol: "https",
+                                            width: "auto",
+                                            onVerify: (e,t)=>{
+                                                b = t.validate
+                                            }
+                                        })
+                                    }
+                                    : ()=>{}
+                                }())
+                            }
+                            ,
+                            a.onclick = ()=>B(1),
+                            h && (h.onclick = ()=>B(1)),
+                            w.onclick = ()=>B(1),
+                            o.addEventListener("submit", (function(e) {
+                                e.preventDefault(),
+                                p.style.display = "none",
+                                _.style.display = "none";
+                                const t = function() {
+                                    let e = "";
+                                    const t = document.getElementsByName("report_reason");
+                                    for (let n = 0; n < t.length; n++) {
+                                        const o = t[n];
+                                        o.checked && (e = o.value)
+                                    }
+                                    return e
+                                }()
+                                  , n = T();
+                                if (!n)
+                                    return void (_.style.display = "block");
+                                const o = {
+                                    reason: t,
+                                    challenge: n
+                                }
+                                  , c = window.location.origin + window.location.pathname + "/_api/report";
+                                r.classList.add("loading"),
+                                fetch(c, {
+                                    method: "POST",
+                                    body: JSON.stringify(o),
+                                    headers: {
+                                        "Content-Type": "application/json; charset=utf-8"
+                                    }
+                                }).then((e=>{
+                                    r.classList.remove("loading"),
+                                    e.ok ? B(3) : p.style.display = "block"
+                                }
+                                ))
+                            }
+                            ));
+                            const A = new Map
+                              , L = e=>{
+                                const t = A.get(e);
+                                null != t && document.removeEventListener("keydown", t);
+                                const n = e.querySelectorAll('button, [href], input, select, textarea, [tabindex]:not([tabindex="-1"])')
+                                  , o = e
+                                  , c = n[n.length - 1]
+                                  , d = function(e) {
+                                    ("Tab" === e.key || 9 === e.keyCode) && (e.shiftKey ? document.activeElement === o && (c.focus(),
+                                    e.preventDefault()) : document.activeElement === c && (o.focus(),
+                                    e.preventDefault()))
+                                };
+                                A.set(e, d),
+                                document.addEventListener("keydown", d),
+                                o.focus()
+                            }
+                            ;
+                            e.keepFocus = L,
+                            Object.defineProperty(e, "__esModule", {
+                                value: !0
+                            })
+                        }({});
+                    }
+                    )();
+                    window.dispatchEvent(new Event('resize'));
+                }
+                );
+            }
+            );
+        </script>
+    </body>
+</html>
